@@ -13,3 +13,11 @@ Como entregáveis esperamos um arquivo Dockerfile, um arquivo para subir os cont
 
 ## Você ganha pontos extras se:
 Se fizer um script que automatize todo esse processo ou faça alguma mudança no app.
+
+
+## Etapas efetuadas
+Nos passos seguintes você terá uma breve ideia de como desenvolvi o desafio.
+
+1. Criei dockerfile e fiz o build com o seguinte comando: docker build -t gledilson
+2. Criei o docker-compose com o banco de dados postgres, kong-migrations pra preparar o banco, o container do Kong e a container da aplicação em Python. E iniciei tudo com o comando docker-compose up.
+3. Criei um script Shell pra criar o serviço e a rota no Kong.
